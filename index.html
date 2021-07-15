@@ -79,13 +79,13 @@
         <h3>Book a table</h3>
         <hr>
         <form action="#" method="POST">
-          <p>
+          <div>
             <label for="booking-name">Name</label>
             <input type="text" id="booking-name" name="booking-name" placeholder="Name" required>
             <label for="booking-email">E-mail</label>
             <input type="email" id="booking-email" name="booking-email" placeholder="Email" required>
-          </p>
-          <p>
+          </div>
+          <div>
             <label for="booking-phone">Phone number</label>
             <input type="tel" id="booking-phone" name="booking-phone" placeholder="Phone" required>
             <label for="booking-guests">Number of guests</label>
@@ -97,13 +97,13 @@
               <option>4</option>
               <option>5</option>
             </datalist>
-          </p>
-          <p>
+          </div>
+          <div>
             <label for="booking-date">Visit date</label>
             <input type="date" id="booking-date" name="booking-date" required>
             <label for="booking-time">Visit time</label>
             <input type="time" id="booking-time" name="booking-time" min="20:00" max="02:00" step="900" required>
-          </p>
+          </div>
           <button type="submit">Book now</button>
         </form>
         <img src="assets/img/booking-img.jpg" width="475" height="475" alt="Clocks hinting that you need to hurry up">
@@ -288,22 +288,22 @@
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
         <form action="#" method="POST">
-          <p>
+          <div>
             <label for="contact-name">Name</label>
             <input type="text" id="contact-name" name="contact-name" placeholder="Name" required>
-          </p>
-          <p>
+          </div>
+          <div>
             <label for="contact-email">E-mail</label>
             <input type="email" id="contact-email" name="contact-email" placeholder="Email" required>
-          </p>
-          <p>
+          </div>
+          <div>
             <label for="contact-phone">Phone number</label>
             <input type="tel" id="contact-phone" name="contact-phone" placeholder="Phone" required>
-          </p>
-          <p>
+          </div>
+          <div>
             <label for="contact-message">Leave your message</label>
             <textarea id="contact-message" name="contact-message" cols="30" rows="5" maxlength="500" placeholder="Message" required></textarea>
-          </p>
+          </div>
           <button type="submit">Send message</button>
         </form>
         <p>
