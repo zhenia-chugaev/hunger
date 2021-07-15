@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Banny";
+  src: url("./assets/fonts/Banny-BoldRound.woff2") format("woff2"),
+    url("./assets/fonts/Banny-BoldRound.woff") format("woff");
+  font-weight: 700;
+}
