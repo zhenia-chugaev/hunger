@@ -49,3 +49,11 @@
   font-size: 12px;
   font-family: "Open Sans", "Tahoma", sans-serif;
 }
+
+.page-section_theme_light {
+  color: var(--page-basic-1);
+}
+
+.page-section_theme_dark {
+  color: var(--page-basic-2);
+}
