@@ -1,3 +1,7 @@
+@import url("./src/header.css");
+@import url("./src/main.css");
+@import url("./src/footer.css");
+
 @font-face {
   font-family: "Open Sans";
   src: url("./assets/fonts/OpenSans-Regular.woff2") format("woff2"),
@@ -17,4 +21,31 @@
   src: url("./assets/fonts/Banny-BoldRound.woff2") format("woff2"),
     url("./assets/fonts/Banny-BoldRound.woff") format("woff");
   font-weight: 700;
+}
+
+/* Global */
+
+:root {
+  /* Page parameters */
+  --layout-width: 1280px;
+  /* Page colors */
+  --page-basic-1: #000000;
+  --page-basic-2: #ffffff;
+  --page-alternate-1: rgba(51, 51, 51, 0.5);
+  --page-alternate-2: rgba(255, 255, 255, 0.5);
+  --page-accent: #e8c300;
+  --section-text: rgba(255, 255, 255, 0.9);
+  --menu-text: #333333;
+  --element-border: rgba(255, 255, 255, 0.2);
+  --image-shadow: rgba(0, 0, 0, 0.5);
+  --link-bg: transparent;
+  --input-bg: #e5e5e5;
+}
+
+.page,
+.page-body {
+  margin: 0;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Open Sans", "Tahoma", sans-serif;
 }
