@@ -11,7 +11,7 @@
   transform: translateX(-50%);
 }
 
-.navigation {
+.page-header__navigation {
   width: var(--layout-width);
   margin: 0 auto;
 }
