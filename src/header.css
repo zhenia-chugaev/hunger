@@ -33,13 +33,9 @@
   border-bottom: 1px solid var(--element-border);
 }
 
-.navigation__item {
-  width: calc(100% / 4);
-}
-
 .navigation__link {
   display: block;
-  width: 100%;
+  width: calc(100% / 4);
   height: 100%;
   color: inherit;
   line-height: 100px;
