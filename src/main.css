@@ -1,0 +1,238 @@
+/* Components */
+/* --- Components / Section Heading */
+
+.heading-text {
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+}
+
+/* --- Components / Dividing Line */
+
+.dividing-line {
+  width: 60px;
+  height: 5px;
+  margin: 0 auto;
+  border-width: 0;
+  border-radius: 50px;
+  background-color: var(--page-accent);
+}
+
+/* --- Components / Button */
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid var(--element-border);
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button_bg_yellow {
+  border-width: 0;
+  color: var(--page-basic-2);
+  background-color: var(--page-accent);
+}
+
+.button_bg_white {
+  color: var(--menu-text);
+  background-color: var(--page-basic-2);
+}
+
+.button_bg_none {
+  color: var(--page-basic-2);
+  background-color: var(--link-bg);
+}
+
+.button_type_rect {
+  width: 200px;
+  height: 60px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.button_type_circle {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* --- Components / Related Info */
+
+.related-info {
+  margin: 0;
+  line-height: 1;
+}
+
+/* 'Home' Section */
+/* --- 'Home' Section / Global */
+
+.home-section {
+  background-color: var(--page-basic-1);
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -100px;
+}
+
+.home-section__container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  width: var(--layout-width);
+  margin: 0 auto;
+}
+
+/* --- 'Home' Section / Key contents */
+
+.home-section__key-contents {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 700px;
+  padding-top: 225px;
+}
+
+.home-section__key-contents::before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 145px;
+  display: block;
+  width: 1px;
+  height: 450px;
+  background-color: var(--element-border);
+}
+
+.home-section__key-contents::after {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  display: block;
+  width: 1px;
+  height: 85px;
+  background-color: var(--element-border);
+}
+
+.main-heading {
+  margin: 0;
+  font-size: 96px;
+  font-family: "Banny", "Trebuchet MS", sans-serif;
+  line-height: 1.45;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home-section__heading,
+.home-section__heading-text,
+.home-section__dividing-line {
+  position: relative;
+}
+
+.home-section__link-set {
+  margin: 0;
+  margin-top: 35px;
+  padding: 0;
+  list-style: none;
+}
+
+.link-set__item {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.link-set__item:last-child {
+  margin-right: 0;
+}
+
+.home-section__button {
+  position: absolute;
+  left: 50%;
+  bottom: 85px;
+  transform: translateX(-50%);
+  background-clip: content-box;
+  background-image: url("../assets/img/array.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+}
+
+/* --- 'Home' Section / Notes */
+
+.home-section__notes {
+  position: relative;
+  order: -1;
+  height: 700px;
+  border-right: 1px solid var(--element-border);
+}
+
+.home-section__related-info {
+  position: absolute;
+  left: -120px;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+/* --- 'Home' Section / Socials */
+
+.home-section__socials {
+  display: flex;
+  order: 1;
+  height: 700px;
+  border-left: 1px solid var(--element-border);
+}
+
+.socials-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-section__socials-list {
+  margin: auto;
+  margin-right: 0;
+}
+
+.socials-list__item {
+  margin-bottom: 20px;
+}
+
+.socials-list__link {
+  font-size: 0;
+  line-height: 0;
+}
+
+.socials-list__link[href*="facebook"] {
+  background-image: url("../assets/img/facebook.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 13px;
+}
+
+.socials-list__link[href*="twitter"] {
+  background-image: url("../assets/img/twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.socials-list__link[href*="instagram"] {
+  background-image: url("../assets/img/instagram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
