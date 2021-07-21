@@ -1,15 +1,32 @@
 /* Components */
 /* --- Components / Section Heading */
 
+.heading {
+  height: 100px;
+  margin: 0;
+  line-height: 100px;
+  text-align: center;
+}
+
 .heading-text {
-  display: block;
   font-weight: 700;
   font-size: 12px;
   font-family: "Open Sans", "Tahoma", sans-serif;
   line-height: 14px;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.5em;
+}
+
+/* --- Components / Text Title */
+
+.text-title {
+  margin: 0;
+  font-size: 36px;
+  font-family: "Banny", "Trebuchet MS", sans-serif;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* --- Components / Dividing Line */
@@ -71,6 +88,7 @@
 .related-info {
   margin: 0;
   line-height: 1;
+  text-align: center;
 }
 
 /* 'Home' Section */
@@ -132,6 +150,10 @@
   line-height: 1.45;
   text-align: center;
   text-transform: uppercase;
+}
+
+.home-section__heading-text {
+  display: block;
 }
 
 .home-section__heading,
