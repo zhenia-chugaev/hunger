@@ -46,6 +46,7 @@
   display: block;
   box-sizing: border-box;
   border: 1px solid var(--element-border);
+  font-weight: 700;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
