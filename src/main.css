@@ -84,12 +84,30 @@
   border-radius: 50%;
 }
 
+/* --- Compontnts / Input Field */
+
+.input-field {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+  border-width: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: var(--input-bg);
+}
+
 /* --- Components / Related Info */
 
 .related-info {
   margin: 0;
   line-height: 1;
   text-align: center;
+}
+
+.related-info__text_type_regular {
+  font-weight: 400;
 }
 
 /* 'Home' Section */
@@ -296,4 +314,41 @@
   order: 1;
   margin-right: -125px;
   margin-left: 80px;
+}
+
+/* 'Booking' Section */
+
+.booking-section {
+  height: 100vh;
+}
+
+.booking-section__contents {
+  height: calc(100% - 200px);
+}
+
+.booking-form {
+  width: 565px;
+}
+
+.booking-section__form {
+  margin-right: 80px;
+  margin-left: -90px;
+}
+
+.booking-form__fields-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.booking-form__button {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.booking-section__related-info {
+  height: 100px;
+  color: var(--page-alternate-1);
+  line-height: 100px;
 }

@@ -110,46 +110,60 @@
         </div>
       </section>
 
-      <section>
-        <h2>Booking</h2>
-        <h3>Book a table</h3>
-        <hr>
-        <form action="#" method="POST">
-          <div>
-            <label for="booking-name">Name</label>
-            <input type="text" id="booking-name" name="booking-name" placeholder="Name" required>
-            <label for="booking-email">E-mail</label>
-            <input type="email" id="booking-email" name="booking-email" placeholder="Email" required>
+      <section class="page-section booking-section page-section_theme_light">
+        <h2 class="heading">
+          <span class="heading-text heading-text_hidden">Booking</span>
+        </h2>
+        <div class="page-section__contents booking-section__contents">
+          <form class="booking-section__form booking-form" action="#" method="POST">
+            <h3 class="page-section__text-title text-title">Book a table</h3>
+            <hr class="dividing-line">
+            <div class="booking-form__fields-area">
+              <div>
+                <label class="booking-form__label booking-form__label_hidden" for="booking-name">Name</label>
+                <input class="booking-form__input input-field" type="text" id="booking-name" name="booking-name" placeholder="Name" required>
+              </div>
+              <div>
+                <label class="booking-form__label booking-form__label_hidden" for="booking-email">E-mail</label>
+                <input class="booking-form__input input-field" type="email" id="booking-email" name="booking-email" placeholder="Email" required>
+              </div>
+              <div>
+                <label class="booking-form__label booking-form__label_hidden" for="booking-phone">Phone number</label>
+                <input class="booking-form__input input-field" type="tel" id="booking-phone" name="booking-phone" placeholder="Phone" required>
+              </div>
+              <div>
+                <label class="booking-form__label booking-form__label_hidden" for="booking-guests">Number of guests</label>
+                <input class="booking-form__input input-field" type="number" id="booking-guests" name="booking-guests" list="guests-number" min="1" max="10" placeholder="People" required>
+                <datalist id="guests-number">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </datalist>
+              </div>
+              <div>
+                <label class="booking-form__label booking-form__label_hidden" for="booking-date">Visit date</label>
+                <input class="booking-form__input input-field" type="date" id="booking-date" name="booking-date" required>
+              </div>
+              <div>
+                <label class="booking-form__label booking-form__label_hidden" for="booking-time">Visit time</label>
+                <input class="booking-form__input input-field" type="time" id="booking-time" name="booking-time" min="20:00" max="02:00" step="900" required>
+              </div>
+              <button class="booking-form__button button button_type_rect button_bg_yellow" type="submit">Book now</button>
+            </div>
+          </form>
+          <div class="page-section__figure page-section__figure_position_right">
+            <img class="page-section__image" src="assets/img/booking-img.jpg" width="475" height="475" alt="Clocks hinting that you need to hurry up">
           </div>
-          <div>
-            <label for="booking-phone">Phone number</label>
-            <input type="tel" id="booking-phone" name="booking-phone" placeholder="Phone" required>
-            <label for="booking-guests">Number of guests</label>
-            <input type="number" id="booking-guests" name="booking-guests" list="guests-number" min="1" max="10" placeholder="People" required>
-            <datalist id="guests-number">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </datalist>
-          </div>
-          <div>
-            <label for="booking-date">Visit date</label>
-            <input type="date" id="booking-date" name="booking-date" required>
-            <label for="booking-time">Visit time</label>
-            <input type="time" id="booking-time" name="booking-time" min="20:00" max="02:00" step="900" required>
-          </div>
-          <button type="submit">Book now</button>
-        </form>
-        <img src="assets/img/booking-img.jpg" width="475" height="475" alt="Clocks hinting that you need to hurry up">
-        <p>
-          Mon - Fri: 
-          <time datetime="20:00">8PM</time> - 
-          <time datetime="22:00">10PM</time>, 
-          Sat - Sun: 
-          <time datetime="20:00">8PM</time> - 
-          <time datetime="03:00">3AM</time>, 
+        </div>
+        <p class="booking-section__related-info related-info">
+          <span class="related-info__text related-info__text_type_regular">Mon - Fri:</span>
+          <time datetime="20:00">8PM</time> -
+          <time datetime="22:00">10PM</time>,
+          <span class="related-info__text related-info__text_type_regular">Sat - Sun:</span>
+          <time datetime="20:00">8PM</time> -
+          <time datetime="03:00">3AM</time>,
           Phone: +40 729 131 637/+40 726 458 782
         </p>
       </section>
