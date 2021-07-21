@@ -258,3 +258,41 @@
   background-position: center;
   background-size: 20px;
 }
+
+/* 'About Us' Section */
+
+.about-section {
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.about-section__contents {
+  height: calc(100% - 100px);
+}
+
+.about-section__description {
+  margin-right: 80px;
+  margin-left: -125px;
+}
+
+/* 'Team' Section */
+
+.team-section {
+  height: 100vh;
+  padding-bottom: 100px;
+  background-color: var(--page-basic-1);
+  background-image: url("../assets/img/team-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.team-section__contents {
+  height: calc(100% - 100px);
+}
+
+.team-section__description {
+  order: 1;
+  margin-right: -125px;
+  margin-left: 80px;
+}
