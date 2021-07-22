@@ -65,6 +65,11 @@
   background-color: var(--page-basic-2);
 }
 
+.button_bg_grey {
+  color: var(--page-basic-2);
+  background-color: var(--page-alternate-2);
+}
+
 .button_bg_none {
   color: var(--page-basic-2);
   background-color: var(--link-bg);
@@ -78,10 +83,21 @@
 }
 
 .button_type_circle {
+  border-radius: 50%;
+}
+
+.button_size_s {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-width: 0;
+  font-size: 0;
+}
+
+.button_size_m {
   width: 60px;
   height: 60px;
   padding: 10px;
-  border-radius: 50%;
 }
 
 /* --- Compontnts / Input Field */
