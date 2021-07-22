@@ -368,3 +368,49 @@
   color: var(--page-alternate-1);
   line-height: 100px;
 }
+
+/* 'Specialties' Section */
+
+.specialties-section {
+  height: 100vh;
+  background-color: var(--page-basic-1);
+  background-image: url("../assets/img/specialties-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.specialties-section__contents {
+  height: calc(100% - 200px);
+}
+
+.specialties-section__description {
+  order: 1;
+  margin-right: -125px;
+  margin-left: 80px;
+}
+
+.switcher-set {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.specialties-section__switcher-set {
+  height: 100px;
+  line-height: 100px;
+}
+
+.switcher-set__item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.switcher-set__item:last-child {
+  margin-right: 0;
+}
+
+.switcher-set__button[disabled] {
+  background-color: var(--page-basic-2);
+}

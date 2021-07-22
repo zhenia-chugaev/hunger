@@ -168,21 +168,39 @@
         </p>
       </section>
 
-      <section>
-        <h2>Specialties</h2>
-        <div>
-          <h3>Chocolate pancakes</h3>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
-          <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed
-          ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
-          pharetra. Nulla facilisis semper laoreet.</p>
-          <img src="assets/img/specialties-img.jpg" alt="Delicious dessert">
+      <section class="page-section specialties-section page-section_theme_dark">
+        <h2 class="heading">
+          <span class="heading-text">Specialties</span>
+        </h2>
+        <div class="page-section__contents specialties-section__contents">
+          <div class="page-section__description specialties-section__description">
+            <h3 class="page-section__text-title text-title">Chocolate pancakes</h3>
+            <hr class="dividing-line">
+            <p class="page-section__text_type_lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+            <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed
+            ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+            pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+          <div class="page-section__figure page-section__figure_position_left">
+            <img class="page-section__image" src="assets/img/specialties-img.jpg" alt="Delicious dessert">
+          </div>
         </div>
-        <ul>
-          <li><button>Show another specialty</button></li>
-          <li><button>Show another specialty</button></li>
-          <li><button>Show another specialty</button></li>
+        <ul class="specialties-section__switcher-set switcher-set">
+          <li class="switcher-set__item">
+            <button class="switcher-set__button button button_type_circle button_bg_grey button_size_s">
+              <span class="button__text button__text_hidden">Show another specialty</span>
+            </button>
+          </li>
+          <li class="switcher-set__item">
+            <button class="switcher-set__button button button_type_circle button_bg_grey button_size_s" disabled>
+              <span class="button__text button__text_hidden">Show another specialty</span>
+            </button>
+          </li>
+          <li class="switcher-set__item">
+            <button class="switcher-set__button button button_type_circle button_bg_grey button_size_s">
+              <span class="button__text button__text_hidden">Show another specialty</span>
+            </button>
+          </li>
         </ul>
       </section>
 
