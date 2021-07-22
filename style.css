@@ -17,6 +17,13 @@
 }
 
 @font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Thick.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans-Thick.woff") format("woff");
+  font-weight: 900;
+}
+
+@font-face {
   font-family: "Banny";
   src: url("./assets/fonts/Banny-BoldRound.woff2") format("woff2"),
     url("./assets/fonts/Banny-BoldRound.woff") format("woff");
