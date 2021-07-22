@@ -46,6 +46,7 @@
   --element-border: rgba(255, 255, 255, 0.2);
   --image-shadow: rgba(0, 0, 0, 0.5);
   --element-shadow: rgba(0, 0, 0, 0.1);
+  --link-border: rgba(51, 51, 51, 0.2);
   --link-bg: transparent;
   --input-bg: #e5e5e5;
 }
@@ -94,6 +95,10 @@
 
 .page-section__text-title {
   margin-bottom: 10px;
+}
+
+.page-section__text {
+  text-align: center;
 }
 
 .page-section__text_type_lead {
