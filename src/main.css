@@ -414,3 +414,115 @@
 .switcher-set__button[disabled] {
   background-color: var(--page-basic-2);
 }
+
+/* 'Menu' Section */
+
+.menu-section {
+  height: 920px;
+  padding-bottom: 100px;
+}
+
+.menu-section__container {
+  width: var(--layout-width);
+  margin: 0 auto;
+}
+
+.menu-section__text {
+  width: 565px;
+  margin: 20px auto 50px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 535px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  display: block;
+  width: 120px;
+  height: 50px;
+  border-right: 1px solid var(--link-border);
+  color: var(--menu-text);
+  font-weight: 900;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu__chapter:last-child .menu__link {
+  border-right-width: 0;
+}
+
+.menu__inner {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.menu__list {
+  height: 435px;
+  margin: 0;
+  padding: 0;
+  column-count: 3;
+  column-gap: 90px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.menu__item {
+  display: flex;
+  margin-bottom: 30px;
+  break-inside: avoid;
+}
+
+.menu-item__inner {
+  width: 265px;
+}
+
+.menu-item__name {
+  margin: 0;
+  color: var(--menu-text);
+  font-size: 18px;
+  font-family: "Banny", "Trebuchet MS", sans-serif;
+  line-height: 18px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.menu-item__name::after {
+  content: "..............................";
+  margin-left: 10px;
+  letter-spacing: 0.25em;
+}
+
+.menu-item__description {
+  margin: 0;
+  color: var(--page-alternate-1);
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  line-height: 18px;
+  text-transform: lowercase;
+}
+
+.menu-item__price {
+  width: 100px;
+  margin: 0;
+  color: var(--menu-text);
+  font-size: 18px;
+  font-family: "Banny", "Trebuchet MS", sans-serif;
+  line-height: 18px;
+  text-align: right;
+  white-space: nowrap;
+}
