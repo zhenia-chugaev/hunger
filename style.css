@@ -77,6 +77,13 @@
   color: var(--page-basic-2);
 }
 
+.page-section__heading {
+  height: 100px;
+  margin: 0;
+  line-height: 100px;
+  text-align: center;
+}
+
 .page-section__contents {
   display: flex;
   justify-content: center;
@@ -91,6 +98,17 @@
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+}
+
+.page-section__description_position_right {
+  order: 1;
+  margin-right: -125px;
+  margin-left: 80px;
+}
+
+.page-section__description_position_left {
+  margin-right: 80px;
+  margin-left: -125px;
 }
 
 .page-section__text-title {
@@ -141,4 +159,17 @@
 .page-section__image {
   max-height: 100%;
   width: auto;
+}
+
+.page-section__related-info {
+  height: 100px;
+  line-height: 100px;
+}
+
+.page-section__related-info_theme_light {
+  color: var(--page-alternate-1);
+}
+
+.page-section__related-info_theme_dark {
+  color: var(--page-alternate-2);
 }

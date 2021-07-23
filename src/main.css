@@ -1,13 +1,6 @@
 /* Components */
 /* --- Components / Section Heading */
 
-.heading {
-  height: 100px;
-  margin: 0;
-  line-height: 100px;
-  text-align: center;
-}
-
 .heading-text {
   font-weight: 700;
   font-size: 12px;
@@ -305,11 +298,6 @@
   height: calc(100% - 100px);
 }
 
-.about-section__description {
-  margin-right: 80px;
-  margin-left: -125px;
-}
-
 /* 'Team' Section */
 
 .team-section {
@@ -324,12 +312,6 @@
 
 .team-section__contents {
   height: calc(100% - 100px);
-}
-
-.team-section__description {
-  order: 1;
-  margin-right: -125px;
-  margin-left: 80px;
 }
 
 /* 'Booking' Section */
@@ -363,12 +345,6 @@
   width: 100%;
 }
 
-.booking-section__related-info {
-  height: 100px;
-  color: var(--page-alternate-1);
-  line-height: 100px;
-}
-
 /* 'Specialties' Section */
 
 .specialties-section {
@@ -382,12 +358,6 @@
 
 .specialties-section__contents {
   height: calc(100% - 200px);
-}
-
-.specialties-section__description {
-  order: 1;
-  margin-right: -125px;
-  margin-left: 80px;
 }
 
 .switcher-set {
