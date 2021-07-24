@@ -585,3 +585,91 @@
   min-width: calc(100% / 4);
   height: auto;
 }
+
+/* 'Contact' Section */
+
+.contact-section {
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.contact-section__container {
+  display: flex;
+  width: var(--layout-width);
+  height: calc(100% - 100px);
+  margin: 0 auto;
+}
+
+.contact-section__inner {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-section__text {
+  width: 565px;
+  margin: 20px auto 50px;
+}
+
+.contact-form__fields-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.contact-form__textarea-field {
+  grid-column: span 3;
+}
+
+.contact-form__textarea {
+  height: 120px;
+  padding-top: 20px;
+  resize: none;
+}
+
+.contact-form__button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+.contact-section__related-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  color: var(--page-alternate-1);
+  line-height: 60px;
+}
+
+.related-info__data::before {
+  content: "";
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 6px 0 12px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.related-info__data:first-child::before {
+  margin-left: 0;
+}
+
+.related-info__data_bg_location::before {
+  background-image: url("../assets/img/location.svg");
+}
+
+.related-info__data_bg_phone::before {
+  background-image: url("../assets/img/phone.svg");
+}
+
+.related-info__data_bg_envelope::before {
+  background-image: url("../assets/img/envelope.svg");
+}
