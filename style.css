@@ -49,12 +49,7 @@
   --link-border: rgba(51, 51, 51, 0.2);
   --link-bg: transparent;
   --input-bg: #e5e5e5;
-}
-
-[class$="hidden"] {
-  position: absolute;
-  font-size: 0;
-  line-height: 0;
+  --footer-bg: rgba(0, 0, 0, 0.9);
 }
 
 .page,
@@ -178,4 +173,12 @@
 
 .page-section__related-info_theme_dark {
   color: var(--page-alternate-2);
+}
+
+[class$="hidden"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
 }
