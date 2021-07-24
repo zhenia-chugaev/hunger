@@ -498,3 +498,93 @@
   text-align: right;
   white-space: nowrap;
 }
+
+/* 'Events' Section */
+
+.events-section__inner {
+  height: 100vh;
+  background-color: var(--page-basic-1);
+  background-image: url("../assets/img/specialties-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.offer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.events-section__contents {
+  height: calc(100% - 200px);
+}
+
+.offer-list__item {
+  position: relative;
+}
+
+.offer-list__item:first-child {
+  margin-right: 120px;
+}
+
+.offer-list__item:last-child {
+  margin-left: 120px;
+}
+
+.offer-item__name {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  height: 100%;
+  margin: 0;
+  background-color: var(--page-basic-1);
+  white-space: nowrap;
+}
+
+.page-section__figure_position_right .offer-item__name {
+  left: -80px;
+}
+
+.page-section__figure_position_left .offer-item__name {
+  right: -80px;
+}
+
+.offer-item__text {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 80px;
+  padding: 10px 20px;
+  color: var(--page-basic-2);
+  font-size: 24px;
+  font-family: "Banny", "Trebuchet MS", sans-serif;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.page-section__figure_position_right .offer-item__text {
+  bottom: 0;
+  left: 100%;
+  transform-origin: bottom left;
+  transform: rotate(-90deg);
+}
+
+.page-section__figure_position_left .offer-item__text {
+  top: 0;
+  left: 100%;
+  transform-origin: top left;
+  transform: rotate(90deg);
+}
+
+/* 'Galerie' Section */
+
+.galerie-section {
+  display: flex;
+  overflow: hidden;
+}
+
+.galerie-section__image {
+  min-width: calc(100% / 4);
+  height: auto;
+}
