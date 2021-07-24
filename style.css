@@ -125,6 +125,12 @@
   line-height: 28px;
 }
 
+.page-section__text_type_heavy {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .page-section__figure {
   position: relative;
   height: 100%;
