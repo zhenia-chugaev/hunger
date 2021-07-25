@@ -1,0 +1,30 @@
+.page-footer {
+  height: 100vh;
+}
+
+.page-footer__location {
+  position: relative;
+  height: calc(100vh - 100px);
+}
+
+.location__image {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.location__map {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+}
+
+.page-footer__copyright {
+  width: 100%;
+  height: 100px;
+  background-color: var(--footer-bg);
+}
