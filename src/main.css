@@ -731,14 +731,14 @@
   margin-left: 0;
 }
 
-.related-info__data_bg_location::before {
+.related-info__data_pic_location::before {
   background-image: url("../assets/img/location.svg");
 }
 
-.related-info__data_bg_phone::before {
+.related-info__data_pic_phone::before {
   background-image: url("../assets/img/phone.svg");
 }
 
-.related-info__data_bg_envelope::before {
+.related-info__data_pic_envelope::before {
   background-image: url("../assets/img/envelope.svg");
 }
