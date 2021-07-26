@@ -46,6 +46,8 @@
   --element-border: rgba(255, 255, 255, 0.2);
   --image-shadow: rgba(0, 0, 0, 0.5);
   --element-shadow: rgba(0, 0, 0, 0.1);
+  --button-hover: #edcb00;
+  --button-active: #e3ba00;
   --link-border: rgba(51, 51, 51, 0.2);
   --link-bg: transparent;
   --input-bg: #e5e5e5;
