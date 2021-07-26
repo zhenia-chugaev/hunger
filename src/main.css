@@ -453,6 +453,10 @@
   margin: 0 auto;
 }
 
+.menu-section__text-title {
+  padding-top: 15px;
+}
+
 .menu-section__text {
   width: 565px;
   margin: 20px auto 50px;
