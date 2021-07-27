@@ -131,24 +131,51 @@
                 <label class="booking-form__label booking-form__label_hidden" for="booking-phone">Phone number</label>
                 <input class="booking-form__input input-field" type="tel" id="booking-phone" name="booking-phone" placeholder="Phone" required>
               </div>
-              <div>
+              <div class="booking-form__wrapper">
                 <label class="booking-form__label booking-form__label_hidden" for="booking-guests">Number of guests</label>
-                <input class="booking-form__input input-field" type="number" id="booking-guests" name="booking-guests" list="guests-number" min="1" max="10" placeholder="People" required>
+                <input class="booking-form__input input-field" type="text" id="booking-guests" name="booking-guests" list="guests-number" placeholder="People" required>
+                <button class="booking-form__select-btn button" type="button">
+                  <span class="button__text button__text_hidden">Select</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 9" width="14" height="9">
+                    <path fill="var(--page-alternate-1)" d="M6.34 8.25L1.02 2.94a.9.9 0 01-.27-.67c0-.26.1-.48.27-.66l.9-.86A.9.9 0 012.6.48c.26 0 .48.09.66.27L7 4.5 10.75.75a.9.9 0 01.66-.27c.26 0 .49.09.67.27l.9.86c.18.18.27.4.27.66a.9.9 0 01-.27.67L7.66 8.25a.9.9 0 01-.66.27.9.9 0 01-.66-.27z" />
+                  </svg>
+                </button>
                 <datalist id="guests-number">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
                   <option>4</option>
-                  <option>5</option>
+                  <option>5 or more</option>
                 </datalist>
               </div>
               <div>
                 <label class="booking-form__label booking-form__label_hidden" for="booking-date">Visit date</label>
-                <input class="booking-form__input input-field" type="date" id="booking-date" name="booking-date" required>
+                <input class="booking-form__input input-field" type="text" id="booking-date" name="booking-date" placeholder="Date (mm/dd)" required>
               </div>
-              <div>
+              <div class="booking-form__wrapper">
                 <label class="booking-form__label booking-form__label_hidden" for="booking-time">Visit time</label>
-                <input class="booking-form__input input-field" type="time" id="booking-time" name="booking-time" min="20:00" max="02:00" step="900" required>
+                <input class="booking-form__input input-field" type="text" id="booking-time" name="booking-time" placeholder="Time" required>
+                <button class="booking-form__select-btn button" type="button">
+                  <span class="button__text button__text-hidden">Select</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 9" width="14" height="9">
+                    <path fill="var(--page-alternate-1)" d="M6.34 8.25L1.02 2.94a.9.9 0 01-.27-.67c0-.26.1-.48.27-.66l.9-.86A.9.9 0 012.6.48c.26 0 .48.09.66.27L7 4.5 10.75.75a.9.9 0 01.66-.27c.26 0 .49.09.67.27l.9.86c.18.18.27.4.27.66a.9.9 0 01-.27.67L7.66 8.25a.9.9 0 01-.66.27.9.9 0 01-.66-.27z" />
+                  </svg>
+                </button>
+                <ul class="booking-form__select-list select-list">
+                  <li><span class="select-list__option">20:00</span></li>
+                  <li><span class="select-list__option">20:30</span></li>
+                  <li><span class="select-list__option">21:00</span></li>
+                  <li><span class="select-list__option">21:30</span></li>
+                  <li><span class="select-list__option">22:00</span></li>
+                  <li><span class="select-list__option">22:30</span></li>
+                  <li><span class="select-list__option">23:00</span></li>
+                  <li><span class="select-list__option">23:30</span></li>
+                  <li><span class="select-list__option">00:00</span></li>
+                  <li><span class="select-list__option">00:30</span></li>
+                  <li><span class="select-list__option">01:00</span></li>
+                  <li><span class="select-list__option">01:30</span></li>
+                  <li><span class="select-list__option">02:00</span></li>
+                </ul>
               </div>
               <button class="booking-form__button button button_type_rect button_bg_yellow" type="submit">Book now</button>
             </div>
