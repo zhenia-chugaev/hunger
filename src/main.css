@@ -1,3 +1,5 @@
+@import url("animation.css");
+
 /* Components */
 /* --- Components / Section Heading */
 
@@ -247,6 +249,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 14px;
+}
+
+.home-section__button:hover {
+  animation: array-down 0.5s;
+  animation-timing-function: ease-out;
 }
 
 .home-section__button:focus-visible {
