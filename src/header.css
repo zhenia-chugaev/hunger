@@ -1,4 +1,6 @@
 .page-header {
+  box-sizing: border-box;
+  color: var(--page-basic-2);
   background-color: var(--page-basic-1);
   background-image: url("../assets/img/header-bg.jpg");
   background-size: cover;
