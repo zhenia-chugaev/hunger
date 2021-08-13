@@ -1,0 +1,92 @@
+@media (max-width: 1439px) {
+  .page-header {
+    background-size: 115%;
+  }
+
+  .home-section {
+    background-size: 115%;
+  }
+}
+
+@media (max-width: 1320px) {
+  /* Global */
+  :root {
+    --layout-width: 1150px;
+  }
+
+  .page-section__description {
+    width: 550px;
+  }
+
+  .page-section__description_position_right {
+    margin-right: -105px;
+    margin-left: 60px;
+  }
+
+  .page-section__description_position_left {
+    margin-right: 60px;
+    margin-left: -105px;
+  }
+
+  .page-section__figure {
+    max-height: 435px;
+  }
+
+  .page-section__figure::after {
+    width: 175px;
+    height: 175px;
+    border-width: 15px;
+  }
+
+  /* Header */
+  .page-header {
+    background-size: 120%;
+  }
+
+  .navigation__container {
+    width: 465px;
+  }
+
+  /* 'Home' Section */
+  .home-section {
+    background-size: 120%;
+  }
+
+  .main-heading {
+    font-size: 88px;
+  }
+
+  /* 'Booking' Section */
+  .booking-form {
+    width: 545px;
+  }
+
+  .booking-section__form {
+    margin-right: 70px;
+    margin-left: -102.5px;
+  }
+
+  /* 'Menu' Section */
+  .menu__list {
+    column-gap: 40px;
+  }
+
+  .menu-item__inner {
+    width: 255px;
+  }
+
+  /* 'Events' Section */
+  .offer-list__item:first-child {
+    margin-right: 110px;
+  }
+
+  .offer-list__item:last-child {
+    margin-left: 110px;
+  }
+
+  /* 'Contact' Section */
+  .related-info__data::before {
+    margin-right: 3px;
+    margin-left: 7px;
+  }
+}
