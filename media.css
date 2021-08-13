@@ -90,3 +90,120 @@
     margin-left: 7px;
   }
 }
+
+@media (max-width: 1199px) {
+  /* Global */
+  :root {
+    --layout-width: 960px;
+  }
+
+  .page-section__description {
+    width: 455px;
+    font-size: 16px;
+  }
+
+  .page-section__description_position_right {
+    margin-right: -100px;
+    margin-left: 40px;
+  }
+
+  .page-section__description_position_left {
+    margin-right: 40px;
+    margin-left: -100px;
+  }
+
+  .page-section__text_type_lead {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .page-section__figure {
+    max-height: 360px;
+  }
+
+  .page-section__figure::after {
+    width: 170px;
+    height: 170px;
+    border-width: 15px;
+  }
+
+  /* Header */
+  .page-header {
+    background-size: 145%;
+  }
+
+  .navigation__container {
+    width: 365px;
+  }
+
+  /* 'Home' Section */
+  .home-section {
+    background-size: 145%;
+  }
+
+  .main-heading {
+    font-size: 76px;
+  }
+
+  /* 'Booking' Section */
+  .booking-form {
+    width: 460px;
+  }
+
+  .booking-section__form {
+    margin-right: 40px;
+    margin-left: -102.5px;
+  }
+
+  /* 'Menu' Section */
+  .menu__list {
+    column-count: 2;
+    column-gap: 90px;
+  }
+
+  .menu-item__inner {
+    width: 295px;
+  }
+
+  /* 'Events' Section */
+  .offer-list__item:first-child {
+    margin-right: 80px;
+  }
+
+  .offer-list__item:last-child {
+    margin-left: 80px;
+  }
+
+  .offer-item__name {
+    width: 60px;
+  }
+
+  .page-section__figure_position_right .offer-item__name {
+    left: -60px;
+  }
+
+  .page-section__figure_position_left .offer-item__name {
+    right: -60px;
+  }
+
+  .offer-item__text {
+    height: 60px;
+    line-height: 40px;
+  }
+
+  /* 'Contact' Section */
+  .contact-section {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .contact-form__button {
+    width: 100%;
+  }
+
+  .contact-section__related-info {
+    position: static;
+    height: 100px;
+    line-height: 100px;
+  }
+}
