@@ -207,3 +207,196 @@
     line-height: 100px;
   }
 }
+
+@media (max-width: 991px) {
+  /* Global */
+  :root {
+    --layout-width: 100%;
+  }
+
+  .page-section {
+    height: initial;
+  }
+
+  .page-section__contents {
+    flex-direction: column;
+  }
+
+  .page-section__description {
+    width: 80%;
+    margin: 0;
+  }
+
+  .page-section__figure {
+    max-height: 475px;
+  }
+
+  .page-section__figure::after {
+    width: 210px;
+    height: 210px;
+    border-width: 20px;
+  }
+
+  .page-section__figure_position_left {
+    margin-bottom: 35px;
+    margin-left: 125px;
+  }
+
+  .page-section__figure_position_right {
+    margin-top: 35px;
+    margin-right: 125px;
+  }
+
+  /* Header */
+  .page-header {
+    background-size: 225%;
+  }
+
+  .page-header__logo {
+    top: 125px;
+  }
+
+  .navigation__container {
+    width: 50%;
+  }
+
+  /* 'Home' Section */
+  .home-section {
+    background-size: 225%;
+  }
+
+  .home-section__container {
+    grid-template-columns: 1fr;
+  }
+
+  .main-heading {
+    font-size: 88px;
+  }
+
+  /* --- 'Home' Section / Notes */
+
+  .home-section__notes {
+    order: 10;
+    height: auto;
+    border: none;
+  }
+
+  .home-section__related-info {
+    position: static;
+    height: 100px;
+    line-height: 100px;
+    transform: none;
+  }
+
+  /* --- 'Home' Section / Socials */
+
+  .home-section__socials {
+    order: 5;
+    height: auto;
+    border: none;
+  }
+
+  .socials-list {
+    display: flex;
+  }
+
+  .home-section__socials-list {
+    margin: auto;
+  }
+
+  .socials-list__item {
+    margin: 0 20px 0 0;
+  }
+
+  .socials-list__item:last-child {
+    margin-right: 0;
+  }
+
+  .home-section__key-contents::before {
+    height: 350px;
+  }
+
+  /* 'Booking' Section */
+
+  .booking-form {
+    width: 80%;
+    margin: 0;
+  }
+
+  .booking-section__form {
+    margin-bottom: 20px;
+  }
+
+  /* 'Menu' Section */
+
+  .menu__link {
+    width: 100px;
+  }
+
+  .menu__list {
+    column-gap: 30px;
+  }
+
+  .menu-item__inner {
+    width: 255px;
+  }
+
+  /* 'Events' Section */
+
+  .events-section__inner {
+    height: auto;
+  }
+
+  .offer-list__item:first-child {
+    margin-right: 60px;
+  }
+
+  .offer-list__item:last-child {
+    margin-left: 60px;
+  }
+
+  /* 'Galerie' Section */
+
+  .galerie-section {
+    flex-wrap: wrap;
+  }
+
+  .galerie-section__image {
+    min-width: calc(100% / 2);
+  }
+
+  /* 'Contact' Section */
+
+  .contact-section__inner {
+    width: 80%;
+  }
+
+  .contact-form__fields-area {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 60px);
+  }
+
+  .contact-form__fields-area div:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .contact-form__fields-area div:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .contact-form__textarea-field {
+    grid-column: auto;
+    grid-row-start: 1;
+    grid-row-end: -1;
+  }
+
+  .contact-form__textarea {
+    height: 100%;
+  }
+}
