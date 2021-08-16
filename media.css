@@ -274,7 +274,6 @@
   }
 
   /* --- 'Home' Section / Notes */
-
   .home-section__notes {
     order: 10;
     height: auto;
@@ -289,7 +288,6 @@
   }
 
   /* --- 'Home' Section / Socials */
-
   .home-section__socials {
     order: 5;
     height: auto;
@@ -317,7 +315,6 @@
   }
 
   /* 'Booking' Section */
-
   .booking-form {
     width: 80%;
     margin: 0;
@@ -328,7 +325,6 @@
   }
 
   /* 'Menu' Section */
-
   .menu__link {
     width: 100px;
   }
@@ -342,7 +338,6 @@
   }
 
   /* 'Events' Section */
-
   .events-section__inner {
     height: auto;
   }
@@ -356,7 +351,6 @@
   }
 
   /* 'Galerie' Section */
-
   .galerie-section {
     flex-wrap: wrap;
   }
@@ -366,7 +360,6 @@
   }
 
   /* 'Contact' Section */
-
   .contact-section__inner {
     width: 80%;
   }
